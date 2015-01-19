@@ -218,7 +218,7 @@ public final class EdaSa {
                 //Inicialização do Objeto
                 populacao[i] = new Individuo(qtdCromossomos);
 
-                //Geração da população com 50% de probabilidade
+                //Geração da população tendo como base o vetor de probabilidades
                 populacao[i].CromossomosRandomicos(probabilidades);
 
             }
